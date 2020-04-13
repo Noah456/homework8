@@ -1,0 +1,72 @@
+#nameSquare {
+    background-color: grey;
+    color: white;
+    padding: 20px;
+    font-size: xx-large;
+    margin-left: 50px;
+}
+
+
+.portfolio {
+    background-color: whitesmoke;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 3%;
+}
+
+
+.row {
+  margin-top:50px;
+}
+
+.row:last-child {
+  margin-bottom:50px;
+}
+
+.col-6 {
+position: relative;
+}
+
+.card-name {
+    text-align: center;
+    background: lightgrey;
+    padding: 16px 1px;
+    position: absolute;
+    width: 100%;
+    bottom: 12px;
+}
+
+.card-name h4{
+ margin-bottom: 0px;
+ color: black;
+}
+
+.projectLink :after {
+  background-color: rgba(0,0,0,0);
+}
+
+
+img {
+    max-height: 234px;
+    }
+
+#footer {
+    background-color: grey;
+}
+.relative{
+    position: relative;
+}
+@media only screen and (max-width: 575px) {
+  .portfolio {
+      width: 100%;
+      margin: 0;
+  }
+
+  .container {
+      padding: 0;
+  }
+
+  .row {
+    margin-top:0px;
+  }
+}

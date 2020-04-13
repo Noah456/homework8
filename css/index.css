@@ -1,0 +1,25 @@
+#nameSquare {
+    background-color: grey;
+    color: white;
+    padding: 20px;
+    font-size: xx-large;
+    margin-left: 50px;
+}
+
+.mediaContainer {
+    background-color: whitesmoke;
+    padding: 50px;
+    margin-right: 50%;
+    margin-top: 70px;
+    margin-left: 64px;
+}
+
+#footer {
+    background-color: grey;
+    border-top-color: black;
+}
+
+.car{
+    display: inline;
+}
+
